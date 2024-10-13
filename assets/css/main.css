@@ -1,0 +1,494 @@
+body{
+    margin: 0;
+}
+/**
+*-------
+*Header
+*--------
+**/
+
+/* Menu items style */
+ul#menu-main-menu {
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+/**
+*-------
+*Footer
+*--------
+**/
+.elementor-icon.elementor-social-icon {
+    display: grid;
+}
+
+.subscribe-input-filed {
+    border-radius: 5px !important;
+    border: 1px solid #3F3F3F !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+}
+.subscribe-submit-btn {
+    border-radius: 5px !important;
+    border: 1px solid #3F3F3F !important;
+    background: #2E9008 !important;
+    width: 100% !important;
+    padding: 11px !important;
+    margin-top: -10px;
+
+}
+
+/**
+*----------------------
+*Home page Hero section
+*-----------------------
+**/
+
+.funnels_background {
+    color: transparent;
+    background: url(../images/hero-section-funnels.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 999;
+}
+
+
+
+.elementor-button-content-wrapper svg path {
+    transition: all 0.4s;
+}
+
+.service_btn .elementor-button-content-wrapper:hover svg path {
+    fill: #298D06;
+}
+
+/* Web site Primary button */
+.primary-btn .elementor-button-content-wrapper{
+    display: flex;
+    align-items: center;
+}
+.primary-btn .elementor-button-icon {
+    font-size: 31px;
+}
+
+
+
+/**
+*----------------
+*Breadcrumb style
+*----------------
+**/
+
+.rank-math-breadcrumb p {
+    color: #010101 !important;
+    opacity: 0.7;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Open Sans";
+    position: relative;
+}
+.rank-math-breadcrumb p a {
+    color: #010101 !important;
+    opacity: 0.9;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Open Sans";
+    position: relative;
+}
+.rank-math-breadcrumb  a:first-child::before{
+    content: url('../images/icon-home.png');
+    position: absolute;
+    opacity: 0.7;
+    top: 0px;
+    left: -34px;
+}
+.rank-math-breadcrumb .separator {
+    position: relative;
+    padding: 0px 11px;
+}
+.rank-math-breadcrumb .separator:before {
+    content: url('../images/arrow-right.png');
+    position: absolute;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+}
+
+/**
+*-----------------
+* Contact us form
+*------------------
+**/
+.contact_form input, textarea  {
+    padding: 15px 20px !important;
+    border-radius: 10px;
+    border: 1px solid rgba(63, 63, 63, 0.10);
+    background: rgba(1, 1, 1, 0.05);
+    font-size: 17px;
+}
+.contact_form input:focus{
+    border-color: #298D06 !important;
+}
+.contact_form textarea:focus{
+    border-color: #298D06 !important;
+}
+
+.contact_form button{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 20px 40px !important;
+    width: 100%;
+    border-radius: 7px;
+    background: #2D8F06;
+    transition:  all 0.3s;
+    cursor: pointer;
+    border: none;
+}
+.contact_form button:hover{
+    background: #85B303;
+    border: none;
+}
+
+.contact_call_action {
+    color: rgba(1, 1, 1, 0.50);
+}
+.contact_call_action:hover{
+    color: #298D06;
+}
+
+.elementor-widget-icon-box.elementor-mobile-position-left
+.elementor-icon-box-wrapper, .elementor-widget-icon-box
+.elementor-mobile-position-right
+.elementor-icon-box-wrapper {
+     align-items: center;
+}
+.fluentform_wrapper_2 .ff-message-success {
+    border: 1px solid #ffffffc4;
+    margin-top: 10px;
+    padding: 15px;
+    position: relative;
+    color: #ffffffe0;
+    border-radius: 7px;
+    font-family: 'Gilroy';
+    font-weight: 300;
+}
+
+/* Social Icon style */
+ul.ha-share-buttons {
+    margin: 0;
+}
+.ha-share-buttons .ha-share-button a{
+	width: 40px;
+	height: 40px;
+    background-image: url('../images//social-icons-sprite.png');
+    background-repeat: no-repeat;
+}
+.ha-share-buttons .ha-share-button .elementor-social-icon-facebook{	
+    background-position: 0 0;
+}
+.ha-share-buttons .ha-share-button .elementor-social-icon-whatsapp{	
+    background-position: -55px  0;
+}
+.ha-share-buttons .ha-share-button .elementor-social-icon-skype{	
+    background-position: -112px  0;
+}
+.ha-share-buttons .ha-share-button .elementor-social-icon-email{	
+    background-position: -169px -6px;
+}
+.ha-share-buttons .ha-share-button .elementor-social-icon-twitter{	
+    background-position: -224px 0;
+}
+ul.ha-share-buttons i {
+    display: none;
+}
+
+/* Service page button style */
+.highlight .elementor-button.elementor-button-link.elementor-size-sm {
+    background: linear-gradient(225deg, #FFE500 0%, #298D06 100%);
+    transition: all 0.4s;
+}
+.highlight .elementor-button.elementor-button-link.elementor-size-sm:hover{
+    background: linear-gradient(225deg, #298D06 0%, #FFE500 100%);
+}
+.elementor-section.elementor-inner-section .highlighted.elementor-section-boxed::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 3px solid transparent;
+    border-radius: 40px;
+    background: linear-gradient( to top right , #298D06, #FFE500) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: 9;
+}
+
+
+.elementor-inner-section .service_hover{
+    transition: all 0.3s;
+}
+.elementor-inner-section .service_hover:hover{
+    cursor: pointer;
+}
+.service_btn_hover a{
+    transition: 0.3s;
+}
+.elementor-inner-section .service_hover:hover .service_btn_hover a{
+    color: white;
+    cursor: pointer;
+    background: linear-gradient(225deg, #298D06 0%, #FFE500 100%);
+    border-color: transparent;
+    border-radius: 50px;
+
+}
+.elementor-inner-section .service_hover:hover .service_btn_hover  a svg path{
+    fill: #ffffff !important;
+
+}
+
+
+
+/* Count down Greaditen color */
+.greadient .elementor-counter-number-wrapper {
+    background: linear-gradient(225deg, #FFE500 0%, #298D06 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Why Choose us Icon */
+.choose_us .elementor-icon-box-icon {
+    margin-top: 7px;
+}
+
+/* heading text greadient color */
+.elementor-heading-title span {
+    background: linear-gradient(225deg, #FFE500 -51%, #298D06 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* Header Menu */
+.ha-navigation-menu-wrapper
+ul.menu li.menu-item-has-children>ul.sub-menu {
+    background: #F4F8FC;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+.ha-navigation-menu-wrapper ul.menu li{
+    margin-top: 10px;
+}
+.ha-navigation-menu-wrapper ul.menu li a span{
+    color:  #010101;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    transition: 0.3s;
+}
+.ha-navigation-menu-wrapper ul.menu li a span:hover{
+    color:  #298D06 !important;
+  
+}
+/* Home page Business Growth Section */
+.cf-frame {
+    position: relative;
+    border: 1px solid #298D06;
+    padding: 14px;
+    border-radius: 2px;
+}
+
+@media screen and (min-width: 768px) {
+    .cf-frame.cf-frame--quarter {
+        border: none;
+    }
+    .cf-frame.cf-frame--quarter::before{
+        z-index: 1;
+        content: "";
+        /* display: block; */
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 75%;
+        height: 100%;
+        border:1px solid #298D06;
+    }
+    .cf-frame.cf-frame--quarter .elementor-widget-container{
+        position: relative;
+       z-index: 2;
+    }
+   
+}
+/**
+ * About Us page why choose us section
+ * */
+.elementor-widget-icon-box.elementor-position-left .elementor-icon-box-icon {
+    margint: 0;
+}
+
+.elementor-icon-box-wrapper {
+    justify-content: start;
+}
+.elementor-widget-icon-box .elementor-icon-box-icon {
+    margin: 0px;
+
+}
+
+/* =========================== */
+
+.cf-subtitle .elementor-heading-title{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .cf-subtitle .elementor-heading-title strong{
+    font-weight: 500;
+  }
+
+  .cf-subtitle .elementor-heading-title:before{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url('../images/sub-heading-left.svg');
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center left;
+  }
+  .cf-subtitle .elementor-heading-title:after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url('../images/sub-heading-right.svg');
+    flex: 1;
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+
+/**
+ * Services page icon box style
+ * */
+.elementor-icon-box-description span {
+    font-weight: 600;
+    color: #010101;
+    font-size: 17px;
+}
+
+.elementor-icon-box-content ul li {
+    font-weight: 400;
+    color: #464646;
+    font-size: 17px;
+}
+.elementor-icon-box-content ul li span {
+    font-weight: 500;
+    color: #010101;
+    font-size: 17px;
+}
+
+.elementor-icon-box-wrapper {
+    align-items: start !important;
+}
+
+/* =================================== */
+
+
+@media screen and (max-width: 767px) {
+    .ha-navigation-burger-menu ul.menu {
+        margin-top: 34px;
+    }
+   
+}
+
+/* -------------------------------- animations -------------------------------- */
+.topAni{animation: topAni 2s linear infinite }
+.MoveUpDown{animation: MoveUpDown 2s linear infinite }
+.scale{animation: scale 2s linear infinite }
+@keyframes MoveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes bgSlide {
+    0% {
+        background-position: 0 0;
+    }
+
+    20% {
+        background-position: -100px 0;
+    }
+
+    40% {
+        background-position: -200px 0;
+    }
+
+    60% {
+        background-position: -150px 0;
+    }
+
+    80% {
+        background-position: -100px 0;
+    }
+
+    100% {
+        background-position: 0px 0;
+    }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes iconleft {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes topAni {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
